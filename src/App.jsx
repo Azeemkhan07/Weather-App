@@ -59,6 +59,9 @@ const WeatherApp = () => {
 
   return (
     <div className="weather-app">
+      <div className="app-creator">
+        &copy; {new Date().getFullYear()} Weather App
+      </div>
       <form onSubmit={fetchWeatherData}>
         <input
           type="text"
@@ -71,7 +74,9 @@ const WeatherApp = () => {
         </button>
       </form>
 
-      {error && <p className="error">Error fetching weather data. Please try again.</p>}
+      {error && (
+        <p className="error">Error fetching weather data. Please try again.</p>
+      )}
 
       {weatherData && (
         <div className={`weather-data ${showData ? "show" : ""}`}>
