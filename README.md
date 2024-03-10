@@ -5,7 +5,7 @@ This is a simple weather application built with React. It uses the OpenWeatherMa
 ## Live Demo
 
 You can access the live application here.
-https://weather-nbyoo1sb0-azeem-s-projects.vercel.app/
+https://weather-app-gules-three.vercel.app/
 
 ## Features
 
