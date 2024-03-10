@@ -2,6 +2,11 @@
 
 This is a simple weather application built with React. It uses the OpenWeatherMap API to fetch weather data based on the city name entered by the user.
 
+## Live Demo
+
+You can access the live application here.
+https://weather-nbyoo1sb0-azeem-s-projects.vercel.app/
+
 ## Features
 
 - Search for a city to get its current weather.
